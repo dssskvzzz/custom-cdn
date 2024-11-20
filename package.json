@@ -1,0 +1,19 @@
+{
+  "name": "custom-cdn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/styles.css -o ./public/styles.css --minify",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "express": "^4.21.1",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15"
+  }
+}
