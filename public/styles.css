@@ -678,7 +678,7 @@ video {
 
 .btn-secondary:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(9 9 11 / var(--tw-bg-opacity, 1));
+  background-color: rgb(39 39 42 / var(--tw-bg-opacity, 1));
 }
 
 /* Кнопка-ссылка */
